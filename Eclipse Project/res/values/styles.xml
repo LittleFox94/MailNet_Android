@@ -28,4 +28,9 @@
 
     <style name="ButtonBarButton" />
 
+    <style name="PostListStyle">
+    	<item name="android:dividerHeight">5dp</item>
+    	<item name="android:divider">#00000000</item>
+    </style>
+    
 </resources>

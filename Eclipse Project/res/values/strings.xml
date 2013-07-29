@@ -3,6 +3,8 @@
 
     <string name="app_name">MailNet</string>
     <string name="title_activity_newsfeed">Newsfeed</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="title_activity_write">WriteActivity</string>
+    <string name="action_write">Neuer Post</string>
 
 </resources>

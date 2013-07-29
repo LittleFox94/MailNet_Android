@@ -9,6 +9,9 @@
         android:targetSdkVersion="17" />
 
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    
+    <uses-permission android:name="org.sufficientlysecure.keychain.permission.ACCESS_API" />
+    <uses-permission android:name="org.sufficientlysecure.keychain.permission.ACCESS_KEYS" />
 
     <application
         android:allowBackup="true"
@@ -23,6 +26,22 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="org.lf_net.mailnet.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="org.lf_net.mailnet.NewsfeedActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.lf_net.mailnet.NewsfeedActivity" />
+        </activity>
+        <activity
+            android:name="org.lf_net.mailnet.WriteActivity"
+            android:label="@string/title_activity_write"
+            android:parentActivityName="org.lf_net.mailnet.NewsfeedActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.lf_net.mailnet.NewsfeedActivity" />
         </activity>
     </application>
 

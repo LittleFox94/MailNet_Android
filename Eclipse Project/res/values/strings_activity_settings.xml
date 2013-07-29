@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="title_activity_settings">Einstellungen</string>
+
+    <!-- Strings related to Settings -->
+	<string name="pref_header_general">Allgemein</string>
+
+    <string name="pref_autologin">Automatisch einloggen</string>
+    <string name="pref_description_autologin">Stellt beim Starten automatisch eine Verbindung zum E-Mail-Provider her.</string>
+
+</resources>

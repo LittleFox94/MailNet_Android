@@ -1,16 +1,9 @@
 package org.lf_net.mailnet;
 
-import java.io.InputStream;
 import java.util.ArrayList;
 
 import android.app.Activity;
 import android.content.Context;
-import android.net.Uri;
-import android.provider.ContactsContract;
-import android.provider.ContactsContract.Contacts;
-import android.provider.ContactsContract.Contacts.Photo;
-import android.provider.ContactsContract.DisplayPhoto;
-import android.provider.ContactsContract.QuickContact;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
