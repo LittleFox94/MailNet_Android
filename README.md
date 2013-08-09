@@ -33,6 +33,15 @@ Altough there are some things still fixed in my head, an now in the README:
  - MailNet-specific data is stored in the e-mail headers. That way it doesn't confuse people using their mail-client to read posts.
 
 
+Problems/Disadvantages
+======================
+
+Sadly I have to say there are some disadvantages with the current concept. First of all E-Mail-headers can't be encrypted
+(how to deliver them?) so it is possible for your ISP to see your friends.
+Secondly, because comments and likes are mails which are sent to everyone who can see that post your friends can see who are your
+friends or who is allowed to see a post. Maybe a "stealth-mode" is possible by sending these mails only to the author and sharing them when the author is online again.
+
+
 Other
 =====
 
@@ -45,3 +54,4 @@ so don't expect something usable in the next time.
 
 
       -- LittleFox (littlefox@lf-net.org) @ 2013/07/27 at 23:25 while listening to gooood Music (ASP, Blutengel, (old) Unheilig)^^
+
