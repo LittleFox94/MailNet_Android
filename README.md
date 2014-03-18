@@ -1,11 +1,9 @@
-MailNet_Android
-===============
+#MailNet_Android
 
 Social network over e-mail - Control your data and use standards! Android/Reference implementation
 
 
-What is MailNet?
-================
+###What is MailNet?
 
 Google+, Facebook, Twitter and all the other big social networks have some problems, by example
  - What happens whith my data when these go offline?
@@ -21,8 +19,7 @@ read your e-mails to view the old posts, although there will be some features mi
 or liking and commenting.
 
 
-How does it work?
-=================
+###How does it work?
 
 MailNet is currently in development - there is not a complete specification at the moment.
 Altough there are some things still fixed in my head, an now in the README:
@@ -33,8 +30,7 @@ Altough there are some things still fixed in my head, an now in the README:
  - MailNet-specific data is stored in the e-mail headers. That way it doesn't confuse people using their mail-client to read posts.
 
 
-Problems/Disadvantages
-======================
+###Problems/Disadvantages
 
 Sadly I have to say there are some disadvantages with the current concept. First of all E-Mail-headers can't be encrypted
 (how to deliver them?) so it is possible for your ISP to see your friends.
@@ -42,8 +38,7 @@ Secondly, because comments and likes are mails which are sent to everyone who ca
 friends or who is allowed to see a post. Maybe a "stealth-mode" is possible by sending these mails only to the author and sharing them when the author is online again.
 
 
-Other
-=====
+###Other
 
 It was a quick idea at a weekend while washing the dishes - so please don't blame me to much if it is bad^^
 
