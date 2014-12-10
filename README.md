@@ -10,7 +10,7 @@ Google+, Facebook, Twitter and all the other big social networks have some probl
  - How to prevent the company behind these services to use my data?
  - How to secure my posts against secret services?
 
-MailNet tries to fix these issues by encrypting your posts and storing them as e-mails in a humand-readable form.
+MailNet tries to fix these issues by encrypting your posts and storing them as e-mails in a human-readable form.
 You can use your own mailserver or one of the hundreds of ISPs worldwide. Because the posts are encrypted there
 is no way for the ISPs to use them.
 
